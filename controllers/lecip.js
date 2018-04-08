@@ -109,22 +109,27 @@ let dests = {
         loopPoint: ''
     },
     81: {
-        interchanges: ['> TAMPINES INT'],
+        interchanges: ['TAMPINES INT - S\'GOON CTRL'],
         routeType: 'TRUNK',
-        loopPoint: 'S\'goon Ctrl'
+        loopPoint: ''
     },
     82: {
-        interchanges: ['> PUNGGOL INT'],
+        interchanges: ['PUNGGOL INT - S\'GOON CTRL'],
         routeType: 'TRUNK',
-        loopPoint: 'S\'goon Ctrl'
+        loopPoint: ''
     },
     83: {
-        interchanges: ['> PUNGGOL INT'],
+        interchanges: ['PUNGGOL INT - SENGKANG SQ'],
         routeType: 'TRUNK',
-        loopPoint: 'Sengkang SQ'
+        loopPoint: ''
     },
     89: {
         interchanges: ['> HOUGANG CENTRAL    ', 'CHANGI AIRFREIGHT CTR'],
+        routeType: 'TRUNK',
+        loopPoint: ''
+    },
+    106: {
+        interchanges: ['> BUKIT BATOK INT', '> SHENTON WAY TER'],
         routeType: 'TRUNK',
         loopPoint: ''
     },
@@ -135,6 +140,11 @@ let dests = {
     },
     125: {
         interchanges: ['> SIMS AVE', '> ST MICHAEL\'S TER'],
+        routeType: 'TRUNK',
+        loopPoint: ''
+    },
+    '163M': {
+        interchanges: ['> SENGKANG W. AVE', '> SENGKANG INT'],
         routeType: 'TRUNK',
         loopPoint: ''
     },
@@ -155,12 +165,12 @@ let dests = {
     },
     291: {
         interchanges: [''],
-        routeType: 'TOWNLINK',
+        routeType: 'TRUNK',
         loopPoint: 'Tampines St 83&33'
     },
     293: {
         interchanges: [''],
-        routeType: 'TOWNLINK',
+        routeType: 'TRUNK',
         loopPoint: 'Tampines St 71&Ave 7'
     },
     807: {
