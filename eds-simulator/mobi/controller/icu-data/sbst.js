@@ -129,6 +129,106 @@ EDSTemplateSet['SBST'] = {
 }
 
 EDSDataSet['SBST'] = {
+    711: {
+        renderType: 'int-loopSvc',
+        serviceNumber: '71',
+        serviceFont: 'full',
+        destination: {
+            text: 'YCK INT-BISHAN ST 11',
+            font: 'narrow'
+        },
+        scrolls: [
+            {
+                "text": "ANG MO KIO AVE 4",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 1",
+                "font": "narrow"
+            },
+            {
+                "text": "BISHAN RD",
+                "font": "narrow"
+            },
+            {
+                "text": "BRADDELL RD",
+                "font": "narrow"
+            },
+            {
+                "text": "BISHAN RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 1",
+                "font": "narrow"
+            },
+                "text": "ANG MO KIO AVE 4",
+                "font": "narrow"
+            }
+        ]
+    },
+      761: {
+        renderType: 'standardService',
+        serviceNumber: '76',
+        serviceFont: 'full',
+        destination: {
+            text: 'EUNOS INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "ANG MO KIO AVE 4",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 3",
+                "font": "narrow"
+            },
+            {
+                "text": "YIO CHU KANG RD",
+                "font": "narrow"
+            },
+            {
+                "text": "UPPER PAYA LEBAR RD",
+                "font": "narrow"
+            },
+            {
+               "text": "PAYA LEBAR RD",
+               "font": "narrow"
+            }
+        ]
+    },
+          762: {
+        renderType: 'standardService',
+        serviceNumber: '76',
+        serviceFont: 'full',
+        destination: {
+            text: 'YIO CHU KANG INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "PAYA LEBAR RD",
+                "font": "narrow"
+            },
+            {
+                "text": "UPPER PAYA LEBAR RD",
+                "font": "narrow"
+            },
+            {
+                "text": "YIO CHU KANG RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 3",
+                "font": "narrow"
+            },
+            {
+               "text": "ANG MO KIO AVE 4",
+               "font": "narrow"
+            }
+        ]
+    },
     1071: {
         renderType: 'standardService',
         serviceNumber: '107',
@@ -309,7 +409,7 @@ EDSDataSet['SBST'] = {
         serviceNumber: '123M',
         serviceFont: 'full',
         destination: {
-            text: 'HBF INT-TIONG BAHRU RD',
+            text: 'HARBOURFRONT INT-T.BAHRU',
             font: 'tall'
         },
         scrolls: [
@@ -390,6 +490,92 @@ EDSDataSet['SBST'] = {
             {
                "text": "MOULMEIN RD",
                "font": "narrow"
+            }
+        ]
+    },
+     1621: {
+        renderType: 'standardService',
+        serviceNumber: '162',
+        serviceFont: 'full',
+        destination: {
+            text: 'SHENTON WAY TER',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "ANG MO KIO AVE 6",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 8",
+                "font": "narrow"
+            },
+            {
+                "text": "BISHAN ST 22",
+                "font": "narrow"
+            },
+            {
+                "text": "SIN MING AVE",
+                "font": "narrow"
+            },
+            {
+                "text": "UPPER THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ORCHARD RD",
+                "font": "narrow"
+                 },
+            {
+                "text": "BRAS BASAH RD",
+                "font": "narrow"
+            }
+        ]
+    },
+         1622: {
+        renderType: 'standardService',
+        serviceNumber: '162',
+        serviceFont: 'full',
+        destination: {
+            text: 'YIO CHU KANG INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "STAMFORD RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ORCHARD TURN",
+                "font": "narrow"
+            },
+            {
+                "text": "THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "UPPER THOMSON RD",
+                "font": "narrow"
+            },
+            {
+                "text": "SIN MING AVE",
+                "font": "narrow"
+            },
+            {
+                "text": "BISHAN ST 22",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 8",
+                "font": "narrow"
+                 },
+            {
+                "text": "ANG MO KIO AVE 6",
+                "font": "narrow"
             }
         ]
     },
