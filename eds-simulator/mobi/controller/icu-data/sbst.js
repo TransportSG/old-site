@@ -48,6 +48,31 @@ EDSTemplateSet['SBST'] = {
             align: 'left'
         }
     ],
+    ffwSvc: [
+        { // Render svc
+            variables: {
+                serviceNumber: '$serviceNumber'
+            },
+            font: '$serviceFont',
+            format: '<serviceNumber,,0>',
+            spaceWidth: 1,
+            align: 'right'
+        },
+        {
+            variables: {
+            },
+            font: 'thick',
+            format: '',
+            spaceWidth: 1,
+            align: 'left',
+            images: [
+                {
+                    name: 'ffw',
+                    x: 0
+                }
+            ]
+        }
+    ],
     expSvc: [
         { // Render svc
             variables: {
@@ -135,7 +160,7 @@ EDSDataSet['SBST'] = {
             }
         ]
     },
-    111: {
+        111: {
         renderType: 'int-loopSvc',
         serviceNumber: '11',
         serviceFont: 'full',
@@ -165,30 +190,169 @@ EDSDataSet['SBST'] = {
                 "font": "narrow"
             }
         ]
-    },
-    108: {
-        renderType: 'expSvc',
-        serviceNumber: '10e',
+                },
+    501: {
+        renderType: 'standardService',
+        serviceNumber: '50',
         serviceFont: 'full',
-        text: 'EXPRESS 10e'
-    },
-    109: {
-        renderType: 'expSvc',
-        serviceNumber: '10e',
+        destination: {
+            text: 'PUNGGOL INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "ANG MO KIO AVE 8",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 5",
+                "font": "narrow"
+            },
+            {
+                "text": "YIO CHU KANG RD",
+                "font": "narrow"
+            },
+            {
+                "text": "SENGKANG WEST AVE",
+                "font": "narrow"
+            },
+            {
+                "text": "SENGKANG EAST WAY",
+                "font": "narrow"
+                            },
+            {
+                "text": "PUNGGOL DR",
+                "font": "narrow"
+            }
+        ]
+                 },
+    502: {
+        renderType: 'standardService',
+        serviceNumber: '50',
         serviceFont: 'full',
-        text: 'EXPRESS 10e'
+        destination: {
+            text: 'BISHAN INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "PUNGGOL DR",
+                "font": "narrow"
+            },
+            {
+                "text": "SENGKANG EAST WAY",
+                "font": "narrow"
+            },
+            {
+                "text": "SENGKANG WEST AVE",
+                "font": "narrow"
+            },
+            {
+                "text": "YIO CHU KANG RD",
+                "font": "narrow"
+            },
+            {
+                "text": "ANG MO KIO AVE 5",
+                "font": "narrow"
+                            },
+            {
+                "text": "ANG MO KIO AVE 8",
+                "font": "narrow"
+            }
+        ]
     },
-    148: {
-        renderType: 'expSvc',
-        serviceNumber: '14e',
+    531: {
+        renderType: 'standardService',
+        serviceNumber: '53',
         serviceFont: 'full',
-        text: 'EXPRESS 14e'
-    },
-    149: {
-        renderType: 'expSvc',
-        serviceNumber: '14e',
+        destination: {
+            text: 'CHANGI AIRPORT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "BISHAN RD",
+                "font": "narrow"
+            },
+            {
+                "text": "SERANGOOON CENTRAL",
+                "font": "narrow"
+            },
+            {
+                "text": "LORONG AH SOO",
+                "font": "narrow"
+            },
+            {
+                "text": "HOUGANG AVE 1",
+                "font": "narrow"
+            },
+            {
+                "text": "PASIR RIS DR 1",
+                "font": "narrow"
+            }
+        ]
+           },
+    532: {
+        renderType: 'standardService',
+        serviceNumber: '53',
         serviceFont: 'full',
-        text: 'EXPRESS 14e'
+        destination: {
+            text: 'BISHAN INT',
+            font: 'thin2'
+        },
+        scrolls: [
+            {
+                "text": "PASIR RIS DR 1",
+                "font": "narrow"
+            },
+            {
+                "text": "HOUGANG AVE 1",
+                "font": "narrow"
+            },
+            {
+                "text": "LORONG AH SOO",
+                "font": "narrow"
+            },
+            {
+                "text": "SERANGOOON CENTRAL",
+                "font": "narrow"
+            },
+            {
+                "text": "BISHAN RD",
+                "font": "narrow"
+            }
+        ]
+            },
+    534: {
+        renderType: 'int-loopSvc',
+        serviceNumber: '53M',
+        serviceFont: 'full',
+        destination: {
+            text: "HOUGANG AVE 1-S'GOON CTRL",
+            font: 'tall'
+        },
+        scrolls: [
+            {
+                "text": "HOUGANG AVE 1",
+                "font": "narrow"
+            },
+            {
+                "text": "LORONG AH SOO",
+                "font": "narrow"
+            },
+            {
+                "text": "SERANGOOON CENTRAL",
+                "font": "narrow"
+            },
+            {
+                "text": "LORONG AH SOO",
+                "font": "narrow"
+            },
+            {
+                "text": "HOUGANG AVE 1",
+                "font": "narrow"
+            }
+        ]
     },
     501: {
         renderType: 'standardService',
@@ -2113,57 +2277,21 @@ EDSDataSet['SBST'] = {
         },
         scrolls: [
             {
-                "text": "YISHUN RING RD",
-                "font": "narrow"
-            },
-            {
-                "text": "YISHUN AVE 3",
-                "font": "narrow"
-            },
-            {
-                "text": "SEMBAWANG RD",
-                "font": "narrow"
-            },
-            {
                 "text": "UPPER THOMSON RD",
                 "font": "narrow"
             },
             {
                 "text": "ANG MO KIO AVE 5",
                 "font": "narrow"
-            }
-        ]
-    },
-
-    8602: {
-        renderType: 'standardService',
-        serviceNumber: '860',
-        serviceFont: 'full',
-        destination: {
-            text: 'YISHUN INT',
-            font: 'thin2'
-        },
-        scrolls: [
-            {
-                "text": "ANG MO KIO AVE 5",
-                "font": "narrow"
             },
             {
-                "text": "UPPER THOMSON RD",
-                "font": "narrow"
-            },
-            {
-                "text": "SEMBAWANG RD",
+                "text": "YISHUN RING RD",
                 "font": "narrow"
             },
             {
                 "text": "YISHUN AVE 3",
                 "font": "narrow"
-            },
-            {
-                "text": "YISHUN RING RD",
-                "font": "narrow"
-            }
+            }// Boo missing data
         ]
     }
 }
